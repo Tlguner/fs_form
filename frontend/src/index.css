@@ -1,0 +1,165 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(148, 38%, 91%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid black;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: white;
+  max-width: 600px;
+  max-height: 500px;
+  padding-bottom: 10px;
+}
+
+.contact {
+  display: flex;
+}
+
+.left-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+}
+
+.names {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.l-surname {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.email-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.email {
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.general {
+  padding-right: 35px;
+  padding-left: 25px;
+  margin-right: 10px;
+  border: 1px solid black;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.support {
+  padding-left: 35px;
+  padding-right: 25px;
+  border: 1px solid black;
+  margin-left: 10px;
+  border: 1px solid black;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.area {
+  flex-grow: 1;
+  width: 400px;
+  height: 100px;
+
+  max-width: 400px;
+  max-height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+.submit {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(169, 82%, 27%);
+  width: 400px;
+  height: 40px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: orange;
+  box-shadow: 3px 3px 5px grey;
+  cursor: pointer;
+}
